@@ -30,8 +30,8 @@ typedef DWORD (WINAPI *PFN_XInputGetCapabilities)(DWORD, DWORD, XINPUT_CAPABILIT
 typedef DWORD (WINAPI *PFN_XInputGetState)(DWORD, XINPUT_STATE*);
 #endif
 
-import "imgui.h";
-import "imgui_impl_win32.h";
+#include "imgui.h"
+#include "imgui_impl_win32.h"
 
 // CHANGELOG
 // (minor and older changes stripped away, please see git history for details)
